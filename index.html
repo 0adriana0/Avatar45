@@ -110,9 +110,32 @@
         <!-- treiler -->
         <section class="treiler">
           <h2 hidden>treiler</h2>
-          <a class="treiler-bth" href="https://youtu.be/6DR1SqPYWCo"
-            >Дивитись трейлер</a
-          >
+          <button class="treiler-bth" type="button" data-open-video
+            >Дивитись трейлер</button>
+            <div class="backdrop is-hidden" data-video-backdrop>
+              <form class="form-treiler">
+                <button class="close-bth" type="button" data-close-video>
+                  <svg class="close-svg" width="14px" height="14px">
+                    <use href="./symbol-defs.svg#icon-cross"></use>
+                  </svg>
+                </button>
+                <h2 class="form-treiler-title">трейлер</h2>
+                <iframe width="560" height="300" src="https://www.youtube.com/embed/E8Qe0vS_I3I" title="АВАТАР: ШЛЯХ ВОДИ | Офіційний український трейлер" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <button class="form-language" data-open-engvideo>English</button>
+              </form>
+            </div>
+            <div class="backdrop is-hidden" data-video-engbackdrop>
+              <form class="engform-treiler">
+                <button class="close-bth" type="button" data-close-engvideo>
+                  <svg class="close-svg" width="14px" height="14px">
+                    <use href="./symbol-defs.svg#icon-cross"></use>
+                  </svg>
+                </button>
+                <h2 class="form-treiler-title">Treiler</h2>
+                <iframe width="560" height="300" src="https://www.youtube.com/embed/d9MyW72ELq0" title="Avatar: The Way of Water | Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <button class="form-language" >Українська</button>
+              </form>
+            </div>
         </section>
         <!-- quotes2 -->
         <section class="quotes">

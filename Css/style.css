@@ -344,6 +344,55 @@ body{
     color: #26C7EA;
 }
 
+.form-treiler{
+    background-color: #FFF;
+    width: 600px;
+    padding: 20px;
+    position: relative;
+    z-index: 100;
+}
+
+.engform-treiler {
+    background-color: #FFF;
+    width: 600px;
+    padding: 20px;
+    position: relative;
+    z-index: 101;
+}
+
+.is-hidden { 
+    opacity: 0; 
+    pointer-events: none;
+} 
+
+.form-language{
+    font-family: 'Headland One', sans-serif;
+        background: #0B0E66;
+        border: 3px solid #26C7EA;
+        border-radius: 45px 0px;
+        padding: 10px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        color: #26C7EA;
+        margin: 20px auto 0;
+        width: 150px;
+}
+
+.form-treiler-title{
+    color: #0B0E66;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 10px auto;
+}
+
+.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
 .avatar-language{
     background-image: linear-gradient(to right, rgba(237, 240, 242, 0.4),rgba(237, 240, 242, 0.4)), url(../img/rectangle20.jpg);
     width: 1440px;
