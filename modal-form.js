@@ -46,16 +46,11 @@ const refsForm = {
         function logBackdropClickInfo() {
           console.log("Це клік в бекдроп");
 }
-        
+
 const refsMov = {
 openMov: document.querySelector("[data-open-video]"),
 closeMov: document.querySelector("[data-close-video]"),
-  backdropMov: document.querySelector("[data-video-backdrop]"),
-
-openMoveng: document.querySelector("[data-open-engvideo]"),
-closeMoveng: document.querySelector("[data-close-engvideo]"),
-backdropMovengZ: document.querySelector("[data-video-engbackdrop]"),
-};
+backdropMov: document.querySelector("[data-video-backdrop]"), };
 
 refsMov.openMov.addEventListener("click", showMov);
 refsMov.closeMov.addEventListener("click", closeMov);

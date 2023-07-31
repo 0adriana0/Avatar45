@@ -365,7 +365,7 @@ body{
     pointer-events: none;
 } 
 
-.form-language{
+/* .form-language{
     font-family: 'Headland One', sans-serif;
         background: #0B0E66;
         border: 3px solid #26C7EA;
@@ -378,14 +378,14 @@ body{
         color: #26C7EA;
         margin: 20px auto 0;
         width: 150px;
-}
+} */
 
 .form-treiler-title{
     color: #0B0E66;
     font-size: 24px;
     font-weight: 400;
     line-height: normal;
-    margin: 10px auto;
+    margin: 10px 230px;
 }
 
 .is-hidden {
